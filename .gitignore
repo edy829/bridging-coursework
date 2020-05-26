@@ -1,0 +1,9 @@
+*.pyc
+*~
+.DS_Store
+/.vscode
+/static
+__pycache__
+db.sqlite3
+geckodriver.log
+venv

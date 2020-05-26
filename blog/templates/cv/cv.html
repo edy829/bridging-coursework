@@ -1,0 +1,17 @@
+{% extends 'cv/base.html' %}
+
+{% block content %}
+	<div class="sub-header">
+		<h2>CV</h2>
+	</div>
+	<div class="post">
+		<h2>Summary</h2>
+		<p class="post-text">{{ cv.summary|linebreaksbr }}</p>
+		<h2>Education</h2>
+		<p class="post-text">{{ cv.education|linebreaksbr }}</p>
+		<h2>Experience</h2>
+		<p class="post-text">{{ cv.experience|linebreaksbr }}</p>
+		<h2>Other</h2>
+		<p class="post-text">{{ cv.other|linebreaksbr }}</p>
+	</div>
+{% endblock %}

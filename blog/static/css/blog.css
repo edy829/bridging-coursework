@@ -1,0 +1,125 @@
+*{margin: 0; padding: 0;}
+
+.button {
+	appearance: button;
+	color: black;
+	font-family: "Roboto", sans-serif;
+	height: 2.25em;
+	margin-top: 10px;
+	text-decoration: none;
+}
+
+.comment {
+	margin: 10px 0 30px 0;
+	text-align: justify;
+}
+
+.date {
+	color: #828282;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.login-form {
+	margin: auto;
+	max-width: 324px;
+	width: 90%;
+}
+
+.nav-bar {
+	padding: 20px;
+}
+
+.nav-item {
+	width: 65px;
+}
+
+.page-header {
+	height: 180px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+	color: black;
+	line-height: 60px;
+	font-family: "Baloo Chettan 2", sans-serif;
+	font-size: 60px;
+	padding-top: 50px;
+}
+
+.page-header div, .page-header div a, .page-header div a:visited, .page-header div a:active {
+	color: black;
+	font-family: "Baloo 2", sans-serif;
+	font-size: 13pt;
+}
+
+.post {
+	margin: auto;
+	margin-bottom: 20px;
+	max-width: 50em;
+	padding: 10px;
+	width: 90%;
+}
+
+.post h2, .post h2 a, .post h2 a:visited {
+	color: black;
+	line-height: 30pt;
+	font-family: "Baloo 2", sans-serif;
+	font-size: 30pt;
+	margin: 10px 0 10px 0;
+}
+
+.post-form input, .post-form textarea {
+	font-family: "Roboto", sans-serif;
+	width: 100%;
+}
+
+.post-text {
+	margin-bottom: 30px;
+	text-align: justify;
+}
+
+.tool {
+	color: black;
+	font-size: 35px;
+	padding-left: 5px;
+}
+
+.sub-header {
+	background-attachment: fixed;
+	background-image: url("https://www.employmenthelp.org/wp-content/uploads/Workshops-Header-Background.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 350px;
+	line-height: 350px;
+	font-family: "Baloo Chettan 2", sans-serif;
+	font-size: 65px;
+	text-align: center;
+}
+
+.toolbar {
+	color: black;
+	font-size: 35px;
+	padding: 25px 25px 0 0;
+}
+
+body {
+	background-attachment: fixed;
+	background-image: url("https://i.pinimg.com/originals/d9/26/22/d92622fe86a52fb5537d3857e73baf03.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Roboto", sans-serif;
+}
